@@ -76,7 +76,7 @@
   width: 0%;
   height: 2px;
   left: 21px;
-  top: 45px;
+  top: 48px;
   content: "";
   position: absolute;
   transition: 0.5s;
@@ -85,6 +85,14 @@
 #nav .links li:hover ::after {
   width: 56%;
   transition: 0.5s;
+}
+
+#nav .links .active::after {
+  width: 56%;
+}
+
+#nav .links .active {
+  color: black;
 }
 
 #nav .dark-mode a {
@@ -419,7 +427,7 @@
   height: 0%;
   left: 0;
   right: 0;
-  bottom: -36px;
+  bottom: -42px;
   color: white;
   display: flex;
   justify-content: center;
