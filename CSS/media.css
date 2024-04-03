@@ -405,7 +405,9 @@
 
   /* Header */
 
-  * Gallery */ #gallery .container .gallery-card {
+  /* Gallery */
+
+  #gallery .container .gallery-card {
     flex-wrap: nowrap;
     flex-direction: column;
     overflow: unset;

@@ -399,7 +399,7 @@
   height: 0%;
   left: 0;
   right: 0;
-  bottom: -30px;
+  bottom: -36px;
   color: white;
   display: flex;
   justify-content: center;
@@ -418,14 +418,14 @@
   transition: 0.4s;
 }
 
-#gallery .container .g-card:hover .layer h3 {
+#gallery .container .layer h3 {
   font-family: Inter, sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: white;
 }
 
-#gallery .container .g-card:hover .layer p {
+#gallery .container .layer p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
@@ -719,7 +719,7 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: flex-start;
   padding: 0;
   margin-top: 15px;
 }
